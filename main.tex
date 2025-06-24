@@ -1,7 +1,19 @@
 \documentclass{article}
 
+\usepackage[
+  top=2cm,
+  bottom=2.5cm,
+  left=2.5cm,
+  right=2.5cm
+]{geometry}
 \usepackage{arev}
 \usepackage[T1]{fontenc}
+\usepackage[colorlinks=true, linkcolor=blue, urlcolor=blue]{hyperref}
+\usepackage[export]{adjustbox}
+\usepackage{graphicx}
+\usepackage{subfig}
+
+\input{custom_components/command.tex}
 
 \begin{document}
 
@@ -12,7 +24,16 @@
     {\Huge\bfseries Portfolio \par}
     \vspace{2cm}
     {\Large Jackson Russell \par}
+    \vspace{1cm}
+
+    % Contact details
+    \textbf{Email:} \href{mailto:jackrussell772@gmail.com}{jackrussell772@gmail.com} \\
+    \textbf{Phone:} 0434 421 611 \\
+    \textbf{LinkedIn:} \href{https://www.linkedin.com/in/jackson-russell-7aa157205/}{LinkedIn} \\ 
+    \textbf{GitHub:} \href{https://github.com/jackfruittt}{GitHub} \\
+
     \vfill
+
 \end{titlepage}
 
 % Table of Contents
@@ -26,6 +47,6 @@
 \input{sections/introduction.tex}
 \input{sections/industry.tex}
 \input{sections/course_work.tex}
-% Add more sections as needed
+
 
 \end{document}

@@ -1,0 +1,36 @@
+\newcommand\imgin[3]{
+    \begin{figure*}[htbp]
+        \centering
+        \includegraphics[width=1.0\textwidth]{images/#1}
+        \caption{#2}
+        \label{fig:#3}
+    \end{figure*}
+}
+
+\newcommand\imginin[4]{
+    \begin{figure*}[htbp]
+        \centering
+        \includegraphics[width=#4\textwidth]{images/#1}
+        \caption{#2}
+        \label{fig:#3}
+    \end{figure*}
+}
+\newcommand\imginrot[5]{
+    \begin{figure}[htbp]
+        \centering
+        \includegraphics[angle=#5, width=#4\textwidth]{images/#1}
+        \caption{#2}
+        \label{fig:#3}
+    \end{figure}
+}
+
+\newcommand\imgpairin[8]{
+    \begin{figure*}[htbp]
+        \centering
+        \subfloat[#2]{\includegraphics[angle=#7, width=0.40\textwidth, valign=c]{images/#1}}
+        \hspace{0.5cm}
+        \subfloat[#4]{\includegraphics[angle=#8, width=0.40\textwidth, valign=c]{images/#3}}
+        \caption{#5}
+        \label{fig:#6}
+    \end{figure*}
+}
