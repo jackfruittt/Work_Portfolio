@@ -1,0 +1,31 @@
+\documentclass{article}
+
+\usepackage{arev}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+
+% Title
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    {\Huge\bfseries Portfolio \par}
+    \vspace{2cm}
+    {\Large Jackson Russell \par}
+    \vfill
+\end{titlepage}
+
+% Table of Contents
+\tableofcontents
+\newpage
+
+
+% Include sections
+\section*{Introduction}
+\addcontentsline{toc}{section}{Introduction}
+\input{sections/introduction.tex}
+\input{sections/industry.tex}
+\input{sections/course_work.tex}
+% Add more sections as needed
+
+\end{document}
