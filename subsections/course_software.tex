@@ -1,2 +1,66 @@
 \newpage
 \subsection{Software Work}
+
+% Wii Wii and Mii
+\subsubsection{Wii Wii and Mii: Cooking Cobots}
+\textbf{Subject: } Industrial Robotics (Spring 2024) \newline
+\textbf{Grade Achieved: } Distinction \newline
+\textbf{Project Overview: }
+The aim of this project was to work in pairs and have two robot manipulators of our choice working in any environment of our choosing, and simulate the task in MATLAB or Python. My team chose the PR2 (Wii Wii) and TM5700 (Mii) [~\ref{fig:cobot}].
+For this assignment we wanted have a cooking cobot pair. I developed all logic for the PR2 and some of the TM5, whilst my partner handled majority of the TM5 code. The simulation is programmed in matlab and 
+contains the following features:
+
+\begin{itemize}
+    \item PR2 utilising a total of 15 DOF
+    \item TM5700 using 6 DOF
+    \item Cubic spline trajectory
+    \item trajectory generation using waypoints
+    \item Functional 2D LiDAR simulation for the PR2 to detect objects
+    \item GUI for the PR2 for manual control using sliders
+    \item Collision detection (in GUI only)
+    \item Custom controller for the TM5 to control it manually
+    \item Usage of both forwards and inverse kinematics 
+    \item Usage of the pseudo-inverse jacobian for the PR2
+    \item Hybrid control system for the PR2 (using Cartesian Trajectory and IK)
+    \item Hybrid control system for the TM5 (using RMRC and IK)
+    \item PR2 and TM5 working together to prepare food
+\end{itemize}
+
+\textbf{Codebase: } \href{https://github.com/jackfruittt/Industrial_Robotics_A2}{Code here} \newline
+\textbf{Video Demonstration: } \href{https://www.youtube.com/watch?v=JsQmZcRGo9Y}{Project Trailer} and \href{https://youtu.be/irytygtPb94}{project demonstration} \newline
+
+Another component of this project was to control an actual robot using Python or MATLAB. We chose to control the TM5 using Python via ROS Noetic which I wrote the code for. 
+Code can be found \href{https://github.com/jackfruittt/tm5_ros_python}{here}.
+
+\imginin{ir/wiiwiimii.png}{Wii Wii and Mii}{cobot}{0.5}
+
+
+
+% PFMS
+\newpage
+\subsubsection{Autonomous Terrain Surveying Drone}
+\textbf{Subject: } Programming for Mechatronic Systems (Autumn 2025) \newline
+\textbf{Grade Achieved: } TBA \newline
+\textbf{Project Overview: }
+The aim of this projectg was to develop an autonomous drone [~\ref{fig:drone}] that could survey terrain using the ROS2 Humble framework and only standard ROS Packages. This was fully written is C++
+using proper OOP principles. The project also has supporting documentation using Doxygen. The key features of this project are:
+
+\begin{itemize}
+    \item Sonar sensor for terrain mapping and alitude control
+    \item 2D Laser for obstacle detection
+    \item Asymmetric PI controller for altitude controller (always 2m above relative terrain)
+    \item Gradient map produced using finite difference method
+    \item 1D Kalman filter for gradient map smoothing if revisiting visited cells
+    \item Live gridmap area updates based on flight path for optimisation
+    \item Shell scripts to automate process of recording rosbags
+    \item Unit tests using Google Test Framework which utilise rosbag data
+    \item Threading for multiple drone operation
+    \item Waypoint visualisation
+\end{itemize}
+
+\textbf{Codebase: } \href{https://github.com/jackfruittt/Terrain-Surveying-Drone}{Code here} \newline
+
+\imginin{pfms/drone.png}{Terrain Surveying Drone}{drone}{0.5}
+
+More information about how the project works and runs can be found in the doxgen documetation. The doxygen components are pre-built and the repo goes over how to launch the index.html file.
+Note: There are more projects for this subject however, they're simply projects to help build to this assigment and my code is wirtten the same throughout so i've decided not to include them.

@@ -3,8 +3,8 @@
 % RIMA1 System Board Instalation
 %\textbf{RIMA1 System Board Installation:}
 \subsubsection{RIMA1 System Board Installation:}
-RIMA1 had a new system board [~\ref{fig:sbi}] installed to fix in-rush current issues when turned on which caused the battery BMS to kick in and turn off for safety and could not be reset without removing the top of RIMA1 and 
-unplugging the battery directly to reset. It also featured a new IMU which I simple vector normalisation algorithm to ensure data was correct. The installation also required simple probing and electrical tests
+I installed a new system board on RIMA1 [~\ref{fig:sbi}] to fix in-rush current issues. This occured when the robot was turned on which caused a large in-rush and the battery BMS to kick in and turn off for safety and could not be reset without removing the lid of RIMA1 and 
+unplugging the battery directly to reset. It also featured a new IMU which I made a simple vector normalisation algorithm for to ensure data was correct. The installation also required simple probing and electrical tests
 to ensure it was working properly. 
 
 \imgpairin{rima1/system_board_old.JPG}{Old System Board}{rima1/system_board_new.JPG}{New System Board}{System Board Installation}{sbi}{0}{0}
@@ -12,8 +12,8 @@ to ensure it was working properly.
 % RIMA2 New PEC Board Test Rig
 %\textbf{RIMA2 New PEC Board Test Rig:}
 \subsubsection{RIMA2 New PEC Board Test Rig:}
-RIMA2 was to be fitted with a new PCB circuit which used Darlington Mosfets to drive the sensors instead op-amps used on its predessor. This was to allow for stronger signal amplification which would allow reasonable signals to 
-be picked up on pipe walls with thick concrete lining (> 20mm). To validate the Darlington Mosfet, I created a test rig for the chip which could be attached to the predessor board.
+RIMA2 was to be fitted with a new PCB circuit which used Darlington Mosfets to drive the sensors instead op-amps used on by predecessor. This was to allow for stronger signal amplification which would allow reasonable signals to 
+be picked up on pipe walls with thick concrete lining (> 20mm). To validate the Darlington Mosfet, I created a test rig for the chip which could be attached to the predecessor board.
 
 \imginin{rima2/new_pec_test.jpg}{Darlington Mosfet Perf Board Setup}{newpec}{0.4}
 
@@ -22,8 +22,8 @@ be picked up on pipe walls with thick concrete lining (> 20mm). To validate the 
 \newpage
 %\textbf{RIMA2 New PEC Board Installation:}
 \subsubsection{RIMA2 New PEC Board Installation:}
-Once tests were validated. The teams senior engineer who works remotely designed the new PEC board and it was my task to install it [~\ref{fig:npi}]. This wasn't a simple installation as the receiver board (black PCB) had to be removed and the new board had 
-remounted to the sensor head base where the old PEC board was mounted. This is becasue the Mosfets of the new board are quite large and clearence is needed to ensure it fits within the sensor head. Installing the board required 
+Once tests were validated. The teams senior engineer who works remotely designed the new PEC board and it was my task to install it [~\ref{fig:npi}]. This wasn't a simple installation as the receiver board (black PCB) had to be removed and remounted to 
+where the old PEC board was mounted. This is becasue the Mosfets of the new board are quite large and clearence is needed to ensure it fits within the sensor head. Installing the board required 
 hand soldering extremely small wires and SMD components that were damaged or fell off the recevier board when relocating. It also required soldering USB data lines to the new PEC board.
 
 \imgpairin{rima2/pec_install_location.JPG}{New Pec to be installed ontop of Receiver Board}{rima2/pec_new_installed.JPG}{New PEC PCB}{New PEC System Installed}{npi}{0}{0}

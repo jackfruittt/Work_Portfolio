@@ -4,14 +4,14 @@
 % Give a brief software overview
 %\textbf{Software Brief: }
 \subsubsection{Software Brief: }
-RIMA1 and RIMA2 ran off the ROS1 Melodic framework. They utilised custom messages and customised ROS packages to function. All code for the robot was written in C++ and analysis scripts used for PEC are written
+RIMA1 and RIMA2 run off the ROS1 Melodic framework. They utilised custom messages and customised ROS packages to function. All code for the robot was written in C++ and analysis scripts used for PEC are written
 in Python. Unfortunately the codebases for these robots cannot be shared as it is property of UTS and Sydney Water. The robots processes and GUI's are all run/launched ushing shell scripts in the linux CL.
 
 % New RIMA1 system board software update
 \vspace{\baselineskip}
 %\textbf{RIMA1 System Board Software Update: }
 \subsubsection{RIMA1 System Board Software Update: }
-The new system board required some minor software updates. This primarily consisted of changes to message data types and names. This change also required small modification to RIMA1's core.cpp file which was resposible 
+The new system board required some minor software updates. This primarily consisted of changes to message data types and names. This change also required small modification to RIMA1's core.cpp file which was responsible 
 for ROS handling (i.e. setting up subscribers, publishers, etc.). 
 
 % RIMA1 GUI Update
@@ -40,10 +40,10 @@ IMU visualisation was also added to the GUI to allow for better understanding of
 % Embedded software debugging for RIMA2 PEC
 \subsubsection{RIMA2 PEC Embedded Software Debugging: }
 
-When RIMA2's PEC Board was installed, its microcontroller onboard the PCD was also upgraded and used slightly different libraries compared to the old PCB for SPI communication. The way the Sensor Head has 10 PEC
-channels that each have an ADC daisy-chained together. From a software standpoint the channels buffer through in a loop so all 10 channels are obtained and transferred via SPI. With the new MCU, Libary and PEC board,
+When RIMA2's PEC Board was installed, its microcontroller onboard the PCB was also upgraded and used slightly different libraries compared to the old PCB for SPI communication. The Sensor Head has 10 PEC
+channels that each have an ADC which are daisy-chained together. From a software standpoint the channels buffer through in a loop so all 10 channels are obtained and transferred via SPI. With the new MCU, Libary and PEC board,
 10 inidvidual channels of data did not come through. Instead the 1st channel appeared to override all channels and there were 10 identical plots of data. After logic analysing and electrical debugging, if was found that 
-the Chip Select was a consant and as a result, would not allow proper buffering through the ADCs. Once this was changed, PEC worked as expected.
+the Chip Select was a consant (set this way in the updated library) and as a result, would not allow proper buffering through the ADCs. Once this was changed, PEC worked as expected.
 
 % PEC Calibration
 \newpage
@@ -58,5 +58,5 @@ PEC was regularly calibrated before field trials to ensure that sensors were ful
 \subsubsection{Other Software Work:}
 
 There were a few other software tasks I did such as creating new shell scripts for QOL such as easier data transfer between robot and base station. This made it more intuitve for anyone using to command line rather than having to memorise
-shell copy commands. I was also in the process of creating a Master GUI in collaboration with our Senior Engineer. This was to make everything more user firendly for Sydney Water to grant them capability in having non-technical
+various terminal commands. I was also in the process of creating a Master GUI in collaboration with our Senior Engineer. This was to make everything more user firendly for Sydney Water to grant them capability in having non-technical
 staff operate the robots. However, due to project timeline constraints, whilst built, it was never tested fully.
