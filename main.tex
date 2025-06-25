@@ -12,8 +12,15 @@
 \usepackage[export]{adjustbox}
 \usepackage{graphicx}
 \usepackage{subfig}
-\usepackage{subfig}
 \setcounter{tocdepth}{3}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{amssymb}  % Checkmarks and crosses
+\usepackage{pifont}   % Symbols
+\newcommand{\cmark}{\textcolor{green}{\ding{51}}}  % checkmark
+\newcommand{\xmark}{\textcolor{red}{\ding{55}}}    % cross
 
 \input{custom_components/command.tex}
 
@@ -48,6 +55,7 @@
 \addcontentsline{toc}{section}{Introduction}
 \input{sections/introduction.tex}
 \input{sections/industry.tex}
+\input{sections/S100.tex}
 \input{sections/course_work.tex}
 
 

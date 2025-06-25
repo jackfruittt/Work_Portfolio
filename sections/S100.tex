@@ -1,0 +1,20 @@
+\newpage
+\section{S100: Demonstartion robot for the UTS Robotics Institute} 
+\label{sec:s100}
+The S100 demonstration robot [~\ref{fig:s100}] is an incomplete project before my departure from the UTS Robotics Institute. It was a robotic platform smaller than RIMA2 intented to do similar tasks to the RIMABOT Project. The robot
+was desiged with the following featrures:
+
+\begin{itemize}
+    \item Single Teensy MCU for control
+    \item Communicated with base station using an MQTT broker over ethernet to replicate similar communcation functionality to RIMA1 and RIMA2
+    \item GUI with intuitive controls and a 3D real-time imu visualisation devolped using ReactJS [~\ref{fig:s100gui}]
+    \item The ability to be used without ROS to make it more user friendly for non-technical users
+    \item The GUI was also linux compatible and a ROS bridge could be used to also control the Robot in ROS amongst other things, making the robot versatile for both general and research use. The React application
+itself would generate all ROS topics using standard ROS packages if the ROS bridge was used.
+\end{itemize}
+
+\textbf{Codebase: } The repository for the S100 project can be found \href{https://github.com/jackfruittt/S100_Interface}{here}
+
+\newpage
+\imginin{s100/s100_robot.png}{S100 Robot}{s100}{0.4}
+\imginin{s100/webui.png}{S100 GUI}{s100gui}{0.8}

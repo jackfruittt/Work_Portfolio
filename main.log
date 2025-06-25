@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.30)  25 JUN 2025 13:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.30)  25 JUN 2025 16:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -537,37 +537,100 @@ Package caption Info: hyperref package is loaded.
 \c@lotdepth=\count294
 \sf@top=\skip55
 \sf@bottom=\skip56
-) (custom_components/command.tex) (C:\Users\jackr\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+) (C:\Users\jackr\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen179
+\lightrulewidth=\dimen180
+\cmidrulewidth=\dimen181
+\belowrulesep=\dimen182
+\belowbottomsep=\dimen183
+\aboverulesep=\dimen184
+\abovetopsep=\dimen185
+\cmidrulesep=\dimen186
+\cmidrulekern=\dimen187
+\defaultaddspace=\dimen188
+\@cmidla=\count295
+\@cmidlb=\count296
+\@aboverulesep=\dimen189
+\@belowrulesep=\dimen190
+\@thisruleclass=\count297
+\@lastruleclass=\count298
+\@thisrulewidth=\dimen191
+) (C:\Users\jackr\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+ (C:\Users\jackr\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
+\col@sep=\dimen192
+\ar@mcellbox=\box54
+\extrarowheight=\dimen193
+\NC@list=\toks22
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box55
+)
+\TX@col@width=\dimen194
+\TX@old@table=\dimen195
+\TX@old@col=\dimen196
+\TX@target=\dimen197
+\TX@delta=\dimen198
+\TX@cols=\count299
+\TX@ftn=\toks23
+) (C:\Users\jackr\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (C:\Users\jackr\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (C:\Users\jackr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (C:\Users\jackr\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+ (C:\Users\jackr\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+ (C:\Users\jackr\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+)) (custom_components/command.tex) (C:\Users\jackr\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count295
-\l__pdf_internal_box=\box54
+\l__color_backend_stack_int=\count300
+\l__pdf_internal_box=\box56
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 20.
-LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 27.
+LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 27.
  (C:\Users\jackr\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign\mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -603,31 +666,24 @@ LaTeX Font Info:    ... okay on input line 20.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(C:\Users\jackr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
-Package: color 2024/01/14 v1.3d Standard LaTeX Color (DPC)
- (C:\Users\jackr\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 149.
- (C:\Users\jackr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 20.
- (main.out) (main.out)
+Package hyperref Info: Link coloring ON on input line 27.
+(main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
  (C:\Users\jackr\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count296
-\scratchdimen=\dimen179
-\scratchbox=\box55
-\nofMPsegments=\count297
-\nofMParguments=\count298
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count299
-\MPscratchDim=\dimen180
-\MPnumerator=\count300
-\makeMPintoPDFobject=\count301
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count301
+\scratchdimen=\dimen199
+\scratchbox=\box57
+\nofMPsegments=\count302
+\nofMParguments=\count303
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count304
+\MPscratchDim=\dimen256
+\MPnumerator=\count305
+\makeMPintoPDFobject=\count306
+\everyMPtoPDFconversion=\toks25
 ) (C:\Users\jackr\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -695,7 +751,7 @@ File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.43 \newpage
+l.50 \newpage
               [1] (sections/introduction.tex
 
 [2]) (sections/industry.tex
@@ -703,12 +759,12 @@ Overfull \hbox (8.8274pt too wide) in paragraph at lines 1--1
 []\T1/fav/b/n/14.4 RIMA1 and RIMA2: Con-di-tianal As-sess-ment Robotic Tools
  []
 
-<images/rima1/RIMA1_Physical_Weight_Detatched.jpg, id=99, 9033.75pt x 7972.78625pt>
+<images/rima1/RIMA1_Physical_Weight_Detatched.jpg, id=164, 9033.75pt x 7972.78625pt>
 File: images/rima1/RIMA1_Physical_Weight_Detatched.jpg Graphic file (type jpg)
 <use images/rima1/RIMA1_Physical_Weight_Detatched.jpg>
 Package pdftex.def Info: images/rima1/RIMA1_Physical_Weight_Detatched.jpg  used on input line 13.
 (pdftex.def)             Requested size: 226.57297pt x 199.87878pt.
-<images/rima2/RIMA2_Physical.png, id=100, 4015.0pt x 3011.25pt>
+<images/rima2/RIMA2_Physical.png, id=165, 4015.0pt x 3011.25pt>
 File: images/rima2/RIMA2_Physical.png Graphic file (type png)
 <use images/rima2/RIMA2_Physical.png>
 Package pdftex.def Info: images/rima2/RIMA2_Physical.png  used on input line 20.
@@ -724,12 +780,12 @@ LaTeX Font Warning: Font shape `TS1/fav/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
 (Font)              for symbol `textbullet' on input line 11.
 
-<images/utility/flangless_tether_protection.JPG, id=108, 4015.0pt x 3011.25pt>
+<images/utility/flangless_tether_protection.JPG, id=173, 4015.0pt x 3011.25pt>
 File: images/utility/flangless_tether_protection.JPG Graphic file (type jpg)
 <use images/utility/flangless_tether_protection.JPG>
 Package pdftex.def Info: images/utility/flangless_tether_protection.JPG  used on input line 20.
 (pdftex.def)             Requested size: 4014.99026pt x 3011.24269pt.
-<images/utility/tether_protection_flanged.JPG, id=109, 4015.0pt x 3011.25pt>
+<images/utility/tether_protection_flanged.JPG, id=174, 4015.0pt x 3011.25pt>
 File: images/utility/tether_protection_flanged.JPG Graphic file (type jpg)
 <use images/utility/tether_protection_flanged.JPG>
 Package pdftex.def Info: images/utility/tether_protection_flanged.JPG  used on input line 20.
@@ -737,12 +793,12 @@ Package pdftex.def Info: images/utility/tether_protection_flanged.JPG  used on i
 
 
 [4 <./images/utility/flangless_tether_protection.JPG> <./images/utility/tether_protection_flanged.JPG>]
-<images/utility/jdm.jpg, id=119, 4047.12pt x 3035.34pt>
+<images/utility/jdm.jpg, id=184, 4047.12pt x 3035.34pt>
 File: images/utility/jdm.jpg Graphic file (type jpg)
 <use images/utility/jdm.jpg>
 Package pdftex.def Info: images/utility/jdm.jpg  used on input line 36.
 (pdftex.def)             Requested size: 4047.11017pt x 3035.33263pt.
-<images/utility/jdm_in_use.jpg, id=120, 4015.0pt x 3011.25pt>
+<images/utility/jdm_in_use.jpg, id=185, 4015.0pt x 3011.25pt>
 File: images/utility/jdm_in_use.jpg Graphic file (type jpg)
 <use images/utility/jdm_in_use.jpg>
 Package pdftex.def Info: images/utility/jdm_in_use.jpg  used on input line 36.
@@ -750,17 +806,17 @@ Package pdftex.def Info: images/utility/jdm_in_use.jpg  used on input line 36.
 
 
 [5 <./images/utility/jdm.jpg> <./images/utility/jdm_in_use.jpg>]
-<images/rima1/rollover_prototype.jpg, id=130, 3011.25pt x 4015.0pt>
+<images/rima1/rollover_prototype.jpg, id=195, 3011.25pt x 4015.0pt>
 File: images/rima1/rollover_prototype.jpg Graphic file (type jpg)
 <use images/rima1/rollover_prototype.jpg>
 Package pdftex.def Info: images/rima1/rollover_prototype.jpg  used on input line 47.
 (pdftex.def)             Requested size: 136.88588pt x 182.50511pt.
-<images/rima1/rollover_rear.jpg, id=131, 4015.0pt x 3011.25pt>
+<images/rima1/rollover_rear.jpg, id=196, 4015.0pt x 3011.25pt>
 File: images/rima1/rollover_rear.jpg Graphic file (type jpg)
 <use images/rima1/rollover_rear.jpg>
 Package pdftex.def Info: images/rima1/rollover_rear.jpg  used on input line 48.
 (pdftex.def)             Requested size: 4014.99026pt x 3011.24269pt.
-<images/rima1/rollover_side.jpg, id=132, 4015.0pt x 3011.25pt>
+<images/rima1/rollover_side.jpg, id=197, 4015.0pt x 3011.25pt>
 File: images/rima1/rollover_side.jpg Graphic file (type jpg)
 <use images/rima1/rollover_side.jpg>
 Package pdftex.def Info: images/rima1/rollover_side.jpg  used on input line 48.
@@ -768,17 +824,17 @@ Package pdftex.def Info: images/rima1/rollover_side.jpg  used on input line 48.
 ) (subsections/industry_electrical.tex
 
 [6 <./images/rima1/rollover_prototype.jpg> <./images/rima1/rollover_rear.jpg> <./images/rima1/rollover_side.jpg>]
-<images/rima1/system_board_old.JPG, id=143, 4015.0pt x 3011.25pt>
+<images/rima1/system_board_old.JPG, id=208, 4015.0pt x 3011.25pt>
 File: images/rima1/system_board_old.JPG Graphic file (type jpg)
 <use images/rima1/system_board_old.JPG>
 Package pdftex.def Info: images/rima1/system_board_old.JPG  used on input line 10.
 (pdftex.def)             Requested size: 4014.99026pt x 3011.24269pt.
-<images/rima1/system_board_new.JPG, id=144, 4015.0pt x 3011.25pt>
+<images/rima1/system_board_new.JPG, id=209, 4015.0pt x 3011.25pt>
 File: images/rima1/system_board_new.JPG Graphic file (type jpg)
 <use images/rima1/system_board_new.JPG>
 Package pdftex.def Info: images/rima1/system_board_new.JPG  used on input line 10.
 (pdftex.def)             Requested size: 4014.99026pt x 3011.24269pt.
-<images/rima2/new_pec_test.jpg, id=145, 3011.25pt x 4015.0pt>
+<images/rima2/new_pec_test.jpg, id=210, 3011.25pt x 4015.0pt>
 File: images/rima2/new_pec_test.jpg Graphic file (type jpg)
 <use images/rima2/new_pec_test.jpg>
 Package pdftex.def Info: images/rima2/new_pec_test.jpg  used on input line 18.
@@ -786,12 +842,12 @@ Package pdftex.def Info: images/rima2/new_pec_test.jpg  used on input line 18.
 
 
 [7 <./images/rima1/system_board_old.JPG> <./images/rima1/system_board_new.JPG>]
-<images/rima2/pec_install_location.JPG, id=154, 895.345pt x 863.225pt>
+<images/rima2/pec_install_location.JPG, id=219, 895.345pt x 863.225pt>
 File: images/rima2/pec_install_location.JPG Graphic file (type jpg)
 <use images/rima2/pec_install_location.JPG>
 Package pdftex.def Info: images/rima2/pec_install_location.JPG  used on input line 29.
 (pdftex.def)             Requested size: 895.34282pt x 863.2229pt.
-<images/rima2/pec_new_installed.JPG, id=155, 4015.0pt x 3011.25pt>
+<images/rima2/pec_new_installed.JPG, id=220, 4015.0pt x 3011.25pt>
 File: images/rima2/pec_new_installed.JPG Graphic file (type jpg)
 <use images/rima2/pec_new_installed.JPG>
 Package pdftex.def Info: images/rima2/pec_new_installed.JPG  used on input line 29.
@@ -801,27 +857,146 @@ Package pdftex.def Info: images/rima2/pec_new_installed.JPG  used on input line 
 [8 <./images/rima2/new_pec_test.jpg> <./images/rima2/pec_install_location.JPG> <./images/rima2/pec_new_installed.JPG>]) (subsections/industry_software.tex
 
 [9]
-<images/rima1/rima1_old_gui.jpg, id=169, 1503.6175pt x 2005.4925pt>
+<images/rima1/rima1_old_gui.jpg, id=234, 1503.6175pt x 2005.4925pt>
 File: images/rima1/rima1_old_gui.jpg Graphic file (type jpg)
 <use images/rima1/rima1_old_gui.jpg>
-Package pdftex.def Info: images/rima1/rima1_old_gui.jpg  used on input line 26.
+Package pdftex.def Info: images/rima1/rima1_old_gui.jpg  used on input line 29.
 (pdftex.def)             Requested size: 141.61081pt x 188.87129pt.
-<images/rima1/rima_gui_new.png, id=170, 1927.2pt x 1084.05pt>
+<images/rima1/rima_gui_new.png, id=235, 1927.2pt x 1084.05pt>
 File: images/rima1/rima_gui_new.png Graphic file (type png)
 <use images/rima1/rima_gui_new.png>
-Package pdftex.def Info: images/rima1/rima_gui_new.png  used on input line 30.
+Package pdftex.def Info: images/rima1/rima_gui_new.png  used on input line 33.
 (pdftex.def)             Requested size: 283.22162pt x 159.30878pt.
 
 
 [10 <./images/rima1/rima1_old_gui.jpg> <./images/rima1/rima_gui_new.png>]
-<images/rima1/rear_cam_rear.jpg, id=179, 4047.12pt x 3035.34pt>
+<images/rima1/rear_cam_rear.jpg, id=244, 4047.12pt x 3035.34pt>
 File: images/rima1/rear_cam_rear.jpg Graphic file (type jpg)
 <use images/rima1/rear_cam_rear.jpg>
-Package pdftex.def Info: images/rima1/rear_cam_rear.jpg  used on input line 35.
+Package pdftex.def Info: images/rima1/rear_cam_rear.jpg  used on input line 38.
 (pdftex.def)             Requested size: 377.62642pt x 283.21928pt.
-)) (sections/course_work.tex (subsections/course_mech.tex) (subsections/course_electrical.tex) (subsections/course_software.tex))
 
-[11 <./images/rima1/rear_cam_rear.jpg>] (main.aux)
+
+[11 <./images/rima1/rear_cam_rear.jpg>]
+<images/rima1/lo_0mm_th_all.png, id=252, 1333.98375pt x 731.73375pt>
+File: images/rima1/lo_0mm_th_all.png Graphic file (type png)
+<use images/rima1/lo_0mm_th_all.png>
+Package pdftex.def Info: images/rima1/lo_0mm_th_all.png  used on input line 53.
+(pdftex.def)             Requested size: 273.77898pt x 150.17386pt.
+<images/rima1/lo_11.54mm_th_all.png, id=253, 1333.98375pt x 1460.45625pt>
+File: images/rima1/lo_11.54mm_th_all.png Graphic file (type png)
+<use images/rima1/lo_11.54mm_th_all.png>
+Package pdftex.def Info: images/rima1/lo_11.54mm_th_all.png  used on input line 54.
+(pdftex.def)             Requested size: 273.77898pt x 299.72974pt.
+
+
+[12 <./images/rima1/lo_0mm_th_all.png> <./images/rima1/lo_11.54mm_th_all.png>])) (sections/S100.tex
+
+[13]
+
+[14]
+<images/s100/s100_robot.png, id=276, 348.55219pt x 462.97969pt>
+File: images/s100/s100_robot.png Graphic file (type png)
+<use images/s100/s100_robot.png>
+Package pdftex.def Info: images/s100/s100_robot.png  used on input line 19.
+(pdftex.def)             Requested size: 188.8096pt x 250.79652pt.
+<images/s100/webui.png, id=278, 1442.38875pt x 685.8122pt>
+File: images/s100/webui.png Graphic file (type png)
+<use images/s100/webui.png>
+Package pdftex.def Info: images/s100/webui.png  used on input line 20.
+(pdftex.def)             Requested size: 377.62642pt x 179.5418pt.
+) (sections/course_work.tex
+
+[15 <./images/s100/s100_robot.png> <./images/s100/webui.png>] (subsections/course_mech.tex
+<images/mdfs/wheel_side_view.png, id=290, 213.1965pt x 187.29974pt>
+File: images/mdfs/wheel_side_view.png Graphic file (type png)
+<use images/mdfs/wheel_side_view.png>
+Package pdftex.def Info: images/mdfs/wheel_side_view.png  used on input line 25.
+(pdftex.def)             Requested size: 213.19597pt x 187.29927pt.
+<images/mdfs/wheel_printed.png, id=291, 178.41656pt x 237.88875pt>
+File: images/mdfs/wheel_printed.png Graphic file (type png)
+<use images/mdfs/wheel_printed.png>
+Package pdftex.def Info: images/mdfs/wheel_printed.png  used on input line 25.
+(pdftex.def)             Requested size: 178.4161pt x 237.88815pt.
+<images/mdfs/Sheet_1.png, id=292, 1173.38374pt x 831.105pt>
+File: images/mdfs/Sheet_1.png Graphic file (type png)
+<use images/mdfs/Sheet_1.png>
+Package pdftex.def Info: images/mdfs/Sheet_1.png  used on input line 26.
+(pdftex.def)             Requested size: 377.62642pt x 267.46814pt.
+<images/mdfs/Sheet_2.png, id=293, 1173.38374pt x 830.10126pt>
+File: images/mdfs/Sheet_2.png Graphic file (type png)
+<use images/mdfs/Sheet_2.png>
+Package pdftex.def Info: images/mdfs/Sheet_2.png  used on input line 27.
+(pdftex.def)             Requested size: 377.62642pt x 267.14513pt.
+<images/mdfs/robot_render_on_track.png, id=294, 368.87813pt x 171.64125pt>
+File: images/mdfs/robot_render_on_track.png Graphic file (type png)
+<use images/mdfs/robot_render_on_track.png>
+Package pdftex.def Info: images/mdfs/robot_render_on_track.png  used on input line 28.
+(pdftex.def)             Requested size: 377.62642pt x 175.71077pt.
+<images/mdfs/final_robot.JPG, id=295, 4015.0pt x 3011.25pt>
+File: images/mdfs/final_robot.JPG Graphic file (type jpg)
+<use images/mdfs/final_robot.JPG>
+Package pdftex.def Info: images/mdfs/final_robot.JPG  used on input line 29.
+(pdftex.def)             Requested size: 4014.99026pt x 3011.24269pt.
+
+
+[16]
+
+[17 <./images/mdfs/wheel_side_view.png> <./images/mdfs/wheel_printed.png> <./images/mdfs/Sheet_1.png>]
+
+[18 <./images/mdfs/Sheet_2.png> <./images/mdfs/robot_render_on_track.png>]
+
+[19 <./images/mdfs/final_robot.JPG>]) (subsections/course_electrical.tex
+
+[20{C:/Users/jackr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/arev/arevoml.enc}{C:/Users/jackr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/arev/arevot1.enc}]
+<images/micro/lpf_circuit.png, id=334, 489.32813pt x 176.15813pt>
+File: images/micro/lpf_circuit.png Graphic file (type png)
+<use images/micro/lpf_circuit.png>
+Package pdftex.def Info: images/micro/lpf_circuit.png  used on input line 53.
+(pdftex.def)             Requested size: 377.62642pt x 135.9486pt.
+<images/micro/lpf_sim.png, id=335, 489.32813pt x 530.73282pt>
+File: images/micro/lpf_sim.png Graphic file (type png)
+<use images/micro/lpf_sim.png>
+Package pdftex.def Info: images/micro/lpf_sim.png  used on input line 55.
+(pdftex.def)             Requested size: 283.22162pt x 307.19357pt.
+
+
+[21 <./images/micro/lpf_circuit.png> <./images/micro/lpf_sim.png>]
+
+[22]
+<images/micro/balun_circuit.png, id=350, 471.26062pt x 615.80063pt>
+File: images/micro/balun_circuit.png Graphic file (type png)
+<use images/micro/balun_circuit.png>
+Package pdftex.def Info: images/micro/balun_circuit.png  used on input line 104.
+(pdftex.def)             Requested size: 377.62642pt x 493.44925pt.
+
+
+[23 <./images/micro/balun_circuit.png>]
+<images/micro/balun_sim.png, id=357, 489.32813pt x 664.73344pt>
+File: images/micro/balun_sim.png Graphic file (type png)
+<use images/micro/balun_sim.png>
+Package pdftex.def Info: images/micro/balun_sim.png  used on input line 107.
+(pdftex.def)             Requested size: 330.42041pt x 448.86844pt.
+
+
+[24 <./images/micro/balun_sim.png>]
+
+[25]
+<images/micro/lna_circuit.png, id=371, 489.32813pt x 162.6075pt>
+File: images/micro/lna_circuit.png Graphic file (type png)
+<use images/micro/lna_circuit.png>
+Package pdftex.def Info: images/micro/lna_circuit.png  used on input line 152.
+(pdftex.def)             Requested size: 377.62642pt x 125.49101pt.
+<images/micro/lna_sim.png, id=372, 350.05782pt x 228.855pt>
+File: images/micro/lna_sim.png Graphic file (type png)
+<use images/micro/lna_sim.png>
+Package pdftex.def Info: images/micro/lna_sim.png  used on input line 154.
+(pdftex.def)             Requested size: 377.62642pt x 246.8943pt.
+) (subsections/course_software.tex
+
+[26 <./images/micro/lna_circuit.png> <./images/micro/lna_sim.png>]))
+
+[27] (main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -831,20 +1006,20 @@ L3 programming layer <2024-08-30>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 63874F4579B3CEF0FDAB24BE6700EC63;2882.
+(rerunfilecheck)             Checksum: D33264E4A536E2334C576537447C1158;5456.
  ) 
 Here is how much of TeX's memory you used:
- 13171 strings out of 473899
- 216392 string characters out of 5726500
- 588274 words of memory out of 5000000
- 35745 multiletter control sequences out of 15000+600000
- 596637 words of font info for 81 fonts, out of 8000000 for 9000
+ 14049 strings out of 473899
+ 231716 string characters out of 5726500
+ 610534 words of memory out of 5000000
+ 36533 multiletter control sequences out of 15000+600000
+ 603061 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  86i,14n,133p,503b,515s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\jackr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/jackr/AppData/Local/Programs/MiKTeX/fonts/type1/public/arev/ArevSans-Bold.pfb><C:/Users/jackr/AppData/Local/Programs/MiKTeX/fonts/type1/public/arev/ArevSans-Roman.pfb>
-Output written on main.pdf (12 pages, 19287818 bytes).
+ <C:\Users\jackr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/jackr/AppData/Local/Programs/MiKTeX/fonts/type1/public/arev/ArevSans-Bold.pfb><C:/Users/jackr/AppData/Local/Programs/MiKTeX/fonts/type1/public/arev/ArevSans-Oblique.pfb><C:/Users/jackr/AppData/Local/Programs/MiKTeX/fonts/type1/public/arev/ArevSans-Roman.pfb><C:/Users/jackr/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on main.pdf (28 pages, 23939838 bytes).
 PDF statistics:
- 214 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 437 PDF objects out of 1000 (max. 8388607)
+ 102 named destinations out of 1000 (max. 500000)
+ 390 words of extra memory for PDF output out of 10000 (max. 10000000)
 
