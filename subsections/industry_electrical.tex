@@ -1,17 +1,44 @@
 \subsection{Electrical Work}
 
 % RIMA1 System Board Instalation
-\textbf{RIMA1 System Board Installation:}
+%\textbf{RIMA1 System Board Installation:}
+\subsubsection{RIMA1 System Board Installation:}
+RIMA1 had a new system board [~\ref{fig:sbi}] installed to fix in-rush current issues when turned on which caused the battery BMS to kick in and turn off for safety and could not be reset without removing the top of RIMA1 and 
+unplugging the battery directly to reset. It also featured a new IMU which I simple vector normalisation algorithm to ensure data was correct. The installation also required simple probing and electrical tests
+to ensure it was working properly. 
+
+\imgpairin{rima1/system_board_old.JPG}{Old System Board}{rima1/system_board_new.JPG}{New System Board}{System Board Installation}{sbi}{0}{0}
 
 % RIMA2 New PEC Board Test Rig
-\newpage
-\textbf{RIMA2 New PEC Board Test Rig:}
+%\textbf{RIMA2 New PEC Board Test Rig:}
+\subsubsection{RIMA2 New PEC Board Test Rig:}
+RIMA2 was to be fitted with a new PCB circuit which used Darlington Mosfets to drive the sensors instead op-amps used on its predessor. This was to allow for stronger signal amplification which would allow reasonable signals to 
+be picked up on pipe walls with thick concrete lining (> 20mm). To validate the Darlington Mosfet, I created a test rig for the chip which could be attached to the predessor board.
+
+\imginin{rima2/new_pec_test.jpg}{Darlington Mosfet Perf Board Setup}{newpec}{0.4}
+
 
 % RIMA2 New PEC Board Installation
 \newpage
-\textbf{RIMA2 New PEC Board Installation:}
+%\textbf{RIMA2 New PEC Board Installation:}
+\subsubsection{RIMA2 New PEC Board Installation:}
+Once tests were validated. The teams senior engineer who works remotely designed the new PEC board and it was my task to install it [~\ref{fig:npi}]. This wasn't a simple installation as the receiver board (black PCB) had to be removed and the new board had 
+remounted to the sensor head base where the old PEC board was mounted. This is becasue the Mosfets of the new board are quite large and clearence is needed to ensure it fits within the sensor head. Installing the board required 
+hand soldering extremely small wires and SMD components that were damaged or fell off the recevier board when relocating. It also required soldering USB data lines to the new PEC board.
 
+\imgpairin{rima2/pec_install_location.JPG}{New Pec to be installed ontop of Receiver Board}{rima2/pec_new_installed.JPG}{New PEC PCB}{New PEC System Installed}{npi}{0}{0}
 
 % RIMA2 Debugging
-\newpage
-\textbf{RIMA2 Electrical Debugging:}
+%\textbf{RIMA2 Electrical Debugging:}
+\subsubsection{RIMA2 Electrical Debugging:}
+
+RIMA2 is a very small, compact robot and with that came many issues. Especially after the new PEC board was installed. Various debugging was completed on RIMA2 to ensure everything was working as intended and to fix any issued.
+Debugging and fixes include:
+
+\begin{itemize}
+    \item Replacing PEC USB cable which became faulty due to strain during installation and earlier testing with the Sensor Head open
+    \item USB voltage testing for rear cart camera which was no longer being detected. Other software based diagnosis such as dmesg was done for this issue as well. Camera cable was eventually replaced
+    \item RIMA2 ran off and NVIDIA Jetson Xavier AGX. Port health was checked for PEC and Cameras.
+    \item Probing of RIMA2 PEC and System Boards for debugging and diagnosis when PEC would arbitrarily stop working.
+    \item Further PCB debugging to identify and replace faulty components such as regulators.
+\end{itemize}

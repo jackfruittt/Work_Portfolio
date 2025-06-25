@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.30)  24 JUN 2025 22:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.30)  25 JUN 2025 13:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -544,30 +544,30 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 18.
-LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 20.
+LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 20.
  (C:\Users\jackr\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign\mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -610,7 +610,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
  (C:\Users\jackr\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 18.
+Package hyperref Info: Link coloring ON on input line 20.
  (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -695,7 +695,7 @@ File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.41 \newpage
+l.43 \newpage
               [1] (sections/introduction.tex
 
 [2]) (sections/industry.tex
@@ -703,12 +703,12 @@ Overfull \hbox (8.8274pt too wide) in paragraph at lines 1--1
 []\T1/fav/b/n/14.4 RIMA1 and RIMA2: Con-di-tianal As-sess-ment Robotic Tools
  []
 
-<images/rima1/RIMA1_Physical_Weight_Detatched.jpg, id=64, 9033.75pt x 7972.78625pt>
+<images/rima1/RIMA1_Physical_Weight_Detatched.jpg, id=99, 9033.75pt x 7972.78625pt>
 File: images/rima1/RIMA1_Physical_Weight_Detatched.jpg Graphic file (type jpg)
 <use images/rima1/RIMA1_Physical_Weight_Detatched.jpg>
 Package pdftex.def Info: images/rima1/RIMA1_Physical_Weight_Detatched.jpg  used on input line 13.
 (pdftex.def)             Requested size: 226.57297pt x 199.87878pt.
-<images/rima2/RIMA2_Physical.png, id=65, 4015.0pt x 3011.25pt>
+<images/rima2/RIMA2_Physical.png, id=100, 4015.0pt x 3011.25pt>
 File: images/rima2/RIMA2_Physical.png Graphic file (type png)
 <use images/rima2/RIMA2_Physical.png>
 Package pdftex.def Info: images/rima2/RIMA2_Physical.png  used on input line 20.
@@ -716,66 +716,112 @@ Package pdftex.def Info: images/rima2/RIMA2_Physical.png  used on input line 20.
 (subsections/industry_mechanical.tex
 
 [3 <./images/rima1/RIMA1_Physical_Weight_Detatched.jpg> <./images/rima2/RIMA2_Physical.png>]
-LaTeX Font Info:    Trying to load font information for TS1+fav on input line 9.
-LaTeX Font Info:    No file TS1fav.fd. on input line 9.
+LaTeX Font Info:    Trying to load font information for TS1+fav on input line 11.
+LaTeX Font Info:    No file TS1fav.fd. on input line 11.
 
 
 LaTeX Font Warning: Font shape `TS1/fav/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 9.
+(Font)              for symbol `textbullet' on input line 11.
 
-<images/utility/flangless_tether_protection.JPG, id=74, 4015.0pt x 3011.25pt>
+<images/utility/flangless_tether_protection.JPG, id=108, 4015.0pt x 3011.25pt>
 File: images/utility/flangless_tether_protection.JPG Graphic file (type jpg)
 <use images/utility/flangless_tether_protection.JPG>
-Package pdftex.def Info: images/utility/flangless_tether_protection.JPG  used on input line 18.
+Package pdftex.def Info: images/utility/flangless_tether_protection.JPG  used on input line 20.
 (pdftex.def)             Requested size: 4014.99026pt x 3011.24269pt.
-<images/utility/tether_protection_flanged.JPG, id=75, 4015.0pt x 3011.25pt>
+<images/utility/tether_protection_flanged.JPG, id=109, 4015.0pt x 3011.25pt>
 File: images/utility/tether_protection_flanged.JPG Graphic file (type jpg)
 <use images/utility/tether_protection_flanged.JPG>
-Package pdftex.def Info: images/utility/tether_protection_flanged.JPG  used on input line 18.
+Package pdftex.def Info: images/utility/tether_protection_flanged.JPG  used on input line 20.
 (pdftex.def)             Requested size: 4014.99026pt x 3011.24269pt.
 
 
 [4 <./images/utility/flangless_tether_protection.JPG> <./images/utility/tether_protection_flanged.JPG>]
-<images/utility/jdm.jpg, id=85, 4047.12pt x 3035.34pt>
+<images/utility/jdm.jpg, id=119, 4047.12pt x 3035.34pt>
 File: images/utility/jdm.jpg Graphic file (type jpg)
 <use images/utility/jdm.jpg>
-Package pdftex.def Info: images/utility/jdm.jpg  used on input line 34.
+Package pdftex.def Info: images/utility/jdm.jpg  used on input line 36.
 (pdftex.def)             Requested size: 4047.11017pt x 3035.33263pt.
-<images/utility/jdm_in_use.jpg, id=86, 4015.0pt x 3011.25pt>
+<images/utility/jdm_in_use.jpg, id=120, 4015.0pt x 3011.25pt>
 File: images/utility/jdm_in_use.jpg Graphic file (type jpg)
 <use images/utility/jdm_in_use.jpg>
-Package pdftex.def Info: images/utility/jdm_in_use.jpg  used on input line 34.
+Package pdftex.def Info: images/utility/jdm_in_use.jpg  used on input line 36.
 (pdftex.def)             Requested size: 4014.99026pt x 3011.24269pt.
 
 
 [5 <./images/utility/jdm.jpg> <./images/utility/jdm_in_use.jpg>]
-<images/rima1/rollover_prototype.jpg, id=96, 3011.25pt x 4015.0pt>
+<images/rima1/rollover_prototype.jpg, id=130, 3011.25pt x 4015.0pt>
 File: images/rima1/rollover_prototype.jpg Graphic file (type jpg)
 <use images/rima1/rollover_prototype.jpg>
-Package pdftex.def Info: images/rima1/rollover_prototype.jpg  used on input line 43.
+Package pdftex.def Info: images/rima1/rollover_prototype.jpg  used on input line 47.
 (pdftex.def)             Requested size: 136.88588pt x 182.50511pt.
-<images/rima1/rollover_rear.jpg, id=97, 4015.0pt x 3011.25pt>
+<images/rima1/rollover_rear.jpg, id=131, 4015.0pt x 3011.25pt>
 File: images/rima1/rollover_rear.jpg Graphic file (type jpg)
 <use images/rima1/rollover_rear.jpg>
-Package pdftex.def Info: images/rima1/rollover_rear.jpg  used on input line 44.
+Package pdftex.def Info: images/rima1/rollover_rear.jpg  used on input line 48.
 (pdftex.def)             Requested size: 4014.99026pt x 3011.24269pt.
-<images/rima1/rollover_side.jpg, id=98, 4015.0pt x 3011.25pt>
+<images/rima1/rollover_side.jpg, id=132, 4015.0pt x 3011.25pt>
 File: images/rima1/rollover_side.jpg Graphic file (type jpg)
 <use images/rima1/rollover_side.jpg>
-Package pdftex.def Info: images/rima1/rollover_side.jpg  used on input line 44.
+Package pdftex.def Info: images/rima1/rollover_side.jpg  used on input line 48.
 (pdftex.def)             Requested size: 4014.99026pt x 3011.24269pt.
 ) (subsections/industry_electrical.tex
 
 [6 <./images/rima1/rollover_prototype.jpg> <./images/rima1/rollover_rear.jpg> <./images/rima1/rollover_side.jpg>]
+<images/rima1/system_board_old.JPG, id=143, 4015.0pt x 3011.25pt>
+File: images/rima1/system_board_old.JPG Graphic file (type jpg)
+<use images/rima1/system_board_old.JPG>
+Package pdftex.def Info: images/rima1/system_board_old.JPG  used on input line 10.
+(pdftex.def)             Requested size: 4014.99026pt x 3011.24269pt.
+<images/rima1/system_board_new.JPG, id=144, 4015.0pt x 3011.25pt>
+File: images/rima1/system_board_new.JPG Graphic file (type jpg)
+<use images/rima1/system_board_new.JPG>
+Package pdftex.def Info: images/rima1/system_board_new.JPG  used on input line 10.
+(pdftex.def)             Requested size: 4014.99026pt x 3011.24269pt.
+<images/rima2/new_pec_test.jpg, id=145, 3011.25pt x 4015.0pt>
+File: images/rima2/new_pec_test.jpg Graphic file (type jpg)
+<use images/rima2/new_pec_test.jpg>
+Package pdftex.def Info: images/rima2/new_pec_test.jpg  used on input line 18.
+(pdftex.def)             Requested size: 188.8096pt x 251.7333pt.
 
-[7]
 
-[8]
+[7 <./images/rima1/system_board_old.JPG> <./images/rima1/system_board_new.JPG>]
+<images/rima2/pec_install_location.JPG, id=154, 895.345pt x 863.225pt>
+File: images/rima2/pec_install_location.JPG Graphic file (type jpg)
+<use images/rima2/pec_install_location.JPG>
+Package pdftex.def Info: images/rima2/pec_install_location.JPG  used on input line 29.
+(pdftex.def)             Requested size: 895.34282pt x 863.2229pt.
+<images/rima2/pec_new_installed.JPG, id=155, 4015.0pt x 3011.25pt>
+File: images/rima2/pec_new_installed.JPG Graphic file (type jpg)
+<use images/rima2/pec_new_installed.JPG>
+Package pdftex.def Info: images/rima2/pec_new_installed.JPG  used on input line 29.
+(pdftex.def)             Requested size: 4014.99026pt x 3011.24269pt.
 
-[9]) (subsections/industry_software.tex)) (sections/course_work.tex (subsections/course_mech.tex) (subsections/course_electrical.tex) (subsections/course_software.tex))
 
-[10] (main.aux)
+[8 <./images/rima2/new_pec_test.jpg> <./images/rima2/pec_install_location.JPG> <./images/rima2/pec_new_installed.JPG>]) (subsections/industry_software.tex
+
+[9]
+<images/rima1/rima1_old_gui.jpg, id=169, 1503.6175pt x 2005.4925pt>
+File: images/rima1/rima1_old_gui.jpg Graphic file (type jpg)
+<use images/rima1/rima1_old_gui.jpg>
+Package pdftex.def Info: images/rima1/rima1_old_gui.jpg  used on input line 26.
+(pdftex.def)             Requested size: 141.61081pt x 188.87129pt.
+<images/rima1/rima_gui_new.png, id=170, 1927.2pt x 1084.05pt>
+File: images/rima1/rima_gui_new.png Graphic file (type png)
+<use images/rima1/rima_gui_new.png>
+Package pdftex.def Info: images/rima1/rima_gui_new.png  used on input line 30.
+(pdftex.def)             Requested size: 283.22162pt x 159.30878pt.
+
+
+[10 <./images/rima1/rima1_old_gui.jpg> <./images/rima1/rima_gui_new.png>]
+<images/rima1/rear_cam_rear.jpg, id=179, 4047.12pt x 3035.34pt>
+File: images/rima1/rear_cam_rear.jpg Graphic file (type jpg)
+<use images/rima1/rear_cam_rear.jpg>
+Package pdftex.def Info: images/rima1/rear_cam_rear.jpg  used on input line 35.
+(pdftex.def)             Requested size: 377.62642pt x 283.21928pt.
+)) (sections/course_work.tex (subsections/course_mech.tex) (subsections/course_electrical.tex) (subsections/course_software.tex))
+
+[11 <./images/rima1/rear_cam_rear.jpg>] (main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -785,20 +831,20 @@ L3 programming layer <2024-08-30>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 78130287D267EB5A78D03DACF1CCEC1B;1285.
+(rerunfilecheck)             Checksum: 63874F4579B3CEF0FDAB24BE6700EC63;2882.
  ) 
 Here is how much of TeX's memory you used:
- 13084 strings out of 473899
- 213722 string characters out of 5726500
- 587976 words of memory out of 5000000
- 35677 multiletter control sequences out of 15000+600000
+ 13171 strings out of 473899
+ 216392 string characters out of 5726500
+ 588274 words of memory out of 5000000
+ 35745 multiletter control sequences out of 15000+600000
  596637 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  86i,14n,133p,503b,515s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\jackr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/jackr/AppData/Local/Programs/MiKTeX/fonts/type1/public/arev/ArevSans-Bold.pfb><C:/Users/jackr/AppData/Local/Programs/MiKTeX/fonts/type1/public/arev/ArevSans-Roman.pfb>
-Output written on main.pdf (11 pages, 48896679 bytes).
+Output written on main.pdf (12 pages, 19287818 bytes).
 PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
- 110 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 214 PDF objects out of 1000 (max. 8388607)
+ 50 named destinations out of 1000 (max. 500000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 
