@@ -12,7 +12,7 @@ to ensure it was working properly.
 % RIMA2 New PEC Board Test Rig
 %\textbf{RIMA2 New PEC Board Test Rig:}
 \subsubsection{RIMA2 New PEC Board Test Rig:}
-RIMA2 was to be fitted with a new PCB circuit which used Darlington Mosfets to drive the sensors instead op-amps used on by predecessor. This was to allow for stronger signal amplification which would allow reasonable signals to 
+RIMA2 was to be fitted with a new PCB circuit which used Darlington Mosfets to drive the sensors instead op-amps as used by the predecessor. This was to allow for stronger signal amplification which would allow reasonable signals to 
 be picked up on pipe walls with thick concrete lining (> 20mm). To validate the Darlington Mosfet, I created a test rig for the chip which could be attached to the predecessor board.
 
 \imginin{rima2/new_pec_test.jpg}{Darlington Mosfet Perf Board Setup}{newpec}{0.4}
@@ -38,7 +38,7 @@ Debugging and fixes include:
 \begin{itemize}
     \item Replacing PEC USB cable which became faulty due to strain during installation and earlier testing with the Sensor Head open
     \item USB voltage testing for rear cart camera which was no longer being detected. Other software based diagnosis such as dmesg was done for this issue as well. Camera cable was eventually replaced
-    \item RIMA2 ran off and NVIDIA Jetson Xavier AGX. Port health was checked for PEC and Cameras.
+    \item RIMA2 ran off an NVIDIA Jetson Xavier AGX. Port health was checked for PEC and Cameras.
     \item Probing of RIMA2 PEC and System Boards for debugging and diagnosis when PEC would arbitrarily stop working.
     \item Further PCB debugging to identify and replace faulty components such as regulators.
 \end{itemize}

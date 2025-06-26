@@ -7,14 +7,15 @@
 \textbf{Grade Achieved: } Distinction \newline
 \textbf{Project Overview: }
 The aim of this project was to work in pairs and have two robot manipulators of our choice working in any environment of our choosing, and simulate the task in MATLAB or Python. My team chose the PR2 (Wii Wii) and TM5700 (Mii) [~\ref{fig:cobot}].
-For this assignment we wanted have a cooking cobot pair. I developed all logic for the PR2 and some of the TM5, whilst my partner handled majority of the TM5 code. The simulation is programmed in matlab and 
+For this assignment we wanted have a cooking cobot pair. I developed all logic for the PR2 and some of the TM5, whilst my partner handled majority of the TM5 code. I managed the codebase for this project to ensure code structure was the same to 
+make merge requests in GitHub and testing easier. The simulation is programmed in matlab and 
 contains the following features:
 
 \begin{itemize}
     \item PR2 utilising a total of 15 DOF
     \item TM5700 using 6 DOF
     \item Cubic spline trajectory
-    \item trajectory generation using waypoints
+    \item Trajectory generation using waypoints
     \item Functional 2D LiDAR simulation for the PR2 to detect objects
     \item GUI for the PR2 for manual control using sliders
     \item Collision detection (in GUI only)
@@ -47,7 +48,7 @@ using proper OOP principles. The project also has supporting documentation using
 
 \begin{itemize}
     \item Sonar sensor for terrain mapping and alitude control
-    \item 2D Laser for obstacle detection
+    \item 2D LiDar for obstacle detection
     \item Asymmetric PI controller for altitude controller (always 2m above relative terrain)
     \item Gradient map produced using finite difference method
     \item 1D Kalman filter for gradient map smoothing if revisiting visited cells
